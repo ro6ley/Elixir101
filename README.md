@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.io/ro6ley/Elixir101.svg)](http://hits.dwyl.io/ro6ley/Elixir101)
+
 # Elixir 101
 
 This repo contains a summary of a number of topics in the Elixir programming language.
