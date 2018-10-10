@@ -15,4 +15,4 @@ Feel free to raise issues using this [issue template](./templates/ISSUE_TEMPLATE
 ## Acknowledgements
 
 ## Contributors
-Check the [contributors]() section of the repo.
+Check the [contributors](https://github.com/ro6ley/Elixir101/graphs/contributors) section of the repo.
