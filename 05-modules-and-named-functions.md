@@ -181,6 +181,15 @@ The `as:` parameter defaults to the last part of the module name.
 
 You `require` a module if you want to use the macros defined in that module. `require` directive ensures that the given module is loaded before your code tries to use any of the macros it defines.
 
+#### Directives in Summary:
+> - **import** directive brings in functions to be used inside your module. **use** directive brings in functions to be used AND exposes them publicly on your module.
+> - **import** directive brings all the Functions and Macros of Module un-namespaced into your module.
+> - **require** directive allows you to use macros of Module but does not import them. (_Functions of Module are always available namespaced._)
+> - **use** directive first **requires** module and then calls the **\_\_using\_\_** macro on Module
+> - In short, in Elixir, you don't need to **import** modules. All public functions can be accessed by full-qualified **MODULE.FUNCTION** syntax e.g. `String.trim()`. We use **import** whenever we want to easily access functions or macros from other modules without using the full-qualified **MODULE.FUNCTION** syntax.
+> - You don't need to **import** a module to use its functions, but you need to **require a module to use its macros**
+
+
 ### Modules Attributes
 
 Modules have associated metadata. Each item of metadata is called an `attribute` of the module and is identified by a name. Inside a module, you can access these attributes by prefixing the name with an `@ sign`.
