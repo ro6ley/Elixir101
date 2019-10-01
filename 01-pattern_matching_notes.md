@@ -5,7 +5,7 @@ It works by determining if the left-hand side can be made equal to the right-han
 
 It succeeds if Elixir can find a way of making the left-hand side equal to the right-hand side.
 
-ELixir will only change the value of the variable on the left hand-side of the `=` sign.
+Elixir will only change the value of the variable on the left hand-side of the `=` sign.
 
 A pattern (the left-side) is matched if the values (the right side) have the same structure and if each term in the pattern can be matched to the corresponding term in the values.
 
